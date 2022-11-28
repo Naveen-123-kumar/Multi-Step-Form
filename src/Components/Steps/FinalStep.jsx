@@ -19,7 +19,7 @@ const FinalStep = () => {
       highestDegree: data.highestDegree,
       issuedBy: data.issuedBy,
       yearOfPassing: data.yearOfPassing,
-      workExperience: data.workExperience,
+      workExperience: data.workExperince,
       skill: data.skill,
       jobApplyFor: data.jobApplyFor,
       jobType: data.jobType,
@@ -56,7 +56,7 @@ const FinalStep = () => {
         employee.yearOfPassing +
         "\n"  +
         "Work Experience: " +
-        employee.workExperience +
+        employee.workExperince +
         "\n"  +
         "Skills: " +
         employee.skill +
